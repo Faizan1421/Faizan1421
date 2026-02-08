@@ -24,34 +24,41 @@ const faizan = {
     title: "Full Stack Developer & Software Engineer",
     company: "Ninjas Code",
     location: "📍 Islamabad, Pakistan",
-    experience: "1+ Year of Professional Development",
-    currentFocus: ["React Native", "Next.js", "GraphQL", "Mobile App Development"],
-    learning: ["Advanced Prisma", "BullMQ", "Cloud Architecture"],
+    experience: "2 Years of Professional Development",
+    currentFocus: ["MERN Stack", "React Native", "Next.js", "GraphQL"],
+    learning: ["Advanced Prisma", "BullMQ", "Microservices"],
     funFact: "I debug with console.log and I'm not ashamed! 😄",
     
-    code: ["JavaScript", "TypeScript", "Node.js"],
-    askMeAbout: ["Full Stack Development", "Mobile Apps", "GraphQL APIs", "App Deployment"],
+    code: ["JavaScript", "TypeScript", "Node.js", "SQL"],
+    askMeAbout: ["MERN Stack", "PERN Stack", "Mobile Apps", "GraphQL APIs", "App Deployment"],
     technologies: {
         frontEnd: {
-            web: ["React", "Next.js"],
+            web: ["React.js", "Next.js", "Redux", "Context API"],
             mobile: ["React Native", "Expo"],
-            styling: ["Tailwind CSS", "Styled Components"]
+            styling: ["Tailwind CSS", "Bootstrap", "Material-UI", "Styled Components", "CSS3"]
         },
         backEnd: {
             runtime: ["Node.js", "Express.js"],
-            databases: ["MongoDB", "Mongoose", "Prisma"],
-            api: ["GraphQL", "REST APIs"],
-            queue: ["Redis", "BullMQ"]
+            databases: ["MongoDB", "PostgreSQL", "MySQL", "Mongoose", "Prisma"],
+            api: ["GraphQL", "Apollo Server", "REST APIs", "tRPC"],
+            queue: ["Redis", "BullMQ"],
+            auth: ["JWT", "OAuth", "Passport.js", "NextAuth.js"]
         },
         deployment: {
-            mobile: ["App Store Publishing", "Play Store Publishing"],
-            hosting: ["Railway", "Netlify", "Server Deployment"]
+            mobile: ["App Store Publishing", "Play Store Publishing", "EAS Build"],
+            hosting: ["Railway", "Netlify", "Vercel", "Server Deployment"],
+            containerization: ["Docker"]
         },
-        tools: ["Git", "VS Code", "Postman", "MongoDB Compass"]
+        tools: ["Git", "GitHub", "VS Code", "Postman", "MongoDB Compass", "npm", "yarn"]
+    },
+    stacks: {
+        mern: ["MongoDB", "Express.js", "React.js", "Node.js"],
+        pern: ["PostgreSQL", "Express.js", "React.js", "Node.js"],
+        mobile: ["React Native", "Expo", "Node.js", "MongoDB/PostgreSQL"]
     },
     currentProjects: [
         "📱 Production Mobile Apps on App Store & Play Store",
-        "🚀 Full Stack Web Applications with Next.js",
+        "🚀 Full Stack Web Applications with MERN/PERN Stack",
         "🔄 Real-time Systems with GraphQL & Redis"
     ]
 };
@@ -66,53 +73,65 @@ const faizan = {
 ### 💻 Languages & Core
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### 🎨 Frontend Development
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Context API](https://img.shields.io/badge/Context_API-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 ### 📱 Mobile Development
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
-![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)
-![Play Store](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)
+![EAS](https://img.shields.io/badge/EAS_Build-000020?style=for-the-badge&logo=expo&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![App Store](https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=appstore&logoColor=white)
+![Play Store](https://img.shields.io/badge/Play_Store-414141?style=for-the-badge&logo=googleplay&logoColor=white)
 
 ### ⚙️ Backend Development
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-![Apollo](https://img.shields.io/badge/Apollo%20GraphQL-311C87?style=for-the-badge&logo=apollo-graphql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![Apollo Server](https://img.shields.io/badge/Apollo_Server-311C87?style=for-the-badge&logo=apollographql&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![tRPC](https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Passport.js](https://img.shields.io/badge/Passport.js-34E27A?style=for-the-badge&logo=passport&logoColor=white)
 
 ### 🗄️ Databases & ORMs
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-FF6B6B?style=for-the-badge&logo=redis&logoColor=white)
+![BullMQ](https://img.shields.io/badge/BullMQ-CC0000?style=for-the-badge&logo=redis&logoColor=white)
 
 ### ☁️ Deployment & Hosting
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Server Deployment](https://img.shields.io/badge/Server-4285F4?style=for-the-badge&logo=linux&logoColor=white)
-![App Store](https://img.shields.io/badge/App_Store_Deploy-0D96F6?style=for-the-badge&logo=app-store&logoColor=white)
-![Play Store](https://img.shields.io/badge/Play_Store_Deploy-414141?style=for-the-badge&logo=google-play&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux Server](https://img.shields.io/badge/Linux_Server-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
-### 🔧 Tools & Others
+### 🔧 Tools & Package Managers
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+![Yarn](https://img.shields.io/badge/Yarn-2C8EBB?style=for-the-badge&logo=yarn&logoColor=white)
+![MongoDB Compass](https://img.shields.io/badge/MongoDB_Compass-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
 
 </div>
 
@@ -166,11 +185,11 @@ const faizan = {
 ```diff
 + 💼 Software Engineer @ Ninjas Code
 + 📍 Based in Islamabad, Pakistan
-+ 🚀 1+ Year of Professional Development Experience
++ 🚀 2 Years of Professional Development Experience
 + 📱 Published Apps on App Store & Play Store
-+ 🔥 Full Stack Developer (React, Next.js, React Native)
-+ 🎯 Specialized in GraphQL, MongoDB & Real-time Systems
-+ ⚡ Expert in App Deployment (Railway, Netlify, Servers)
++ 🔥 MERN & PERN Stack Developer
++ 🎯 Specialized in React Native, GraphQL & Real-time Systems
++ ⚡ Expert in Full Stack Development & App Deployment
 + 🌟 Building Production-Ready Applications
 ```
 
@@ -217,7 +236,7 @@ const faizan = {
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/faizan1421)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/faizan1421)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/faizan_tayyab)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://faizan1421.dev)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:faizan@example.com)
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/faizan1421)
